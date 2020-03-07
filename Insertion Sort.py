@@ -1,6 +1,7 @@
 
 def insertionSort(arr): 
     '''
+    My implementation of insertion sort
     '''
     for i in range(1,len(arr)):
         key = arr[i]

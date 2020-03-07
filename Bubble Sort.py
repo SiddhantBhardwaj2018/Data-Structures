@@ -1,6 +1,7 @@
 
 def bubbleSort(lst):
     '''
+    This takes time of O(n^2)
     '''
     n = len(lst)
     for i in range(1,n):

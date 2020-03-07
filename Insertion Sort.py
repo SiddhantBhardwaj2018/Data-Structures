@@ -1,7 +1,8 @@
 
 def insertionSort(arr): 
     '''
-    My implementation of insertion sort
+    My implementation of insertion sort.
+    This is O(n^2) algorithm.
     '''
     for i in range(1,len(arr)):
         key = arr[i]

@@ -5,12 +5,10 @@ class Queue:
         self.item = []
         
     def push(self,obj):
-        #Push the elements at the last index. Returns None
-        self.item.append(obj)
+        self.item.insert(0,obj)
         
     def pop(self):
-        #This will remove last item. Returns None
-        self.item.pop(0)
+        self.item.pop(-1)
         
     def display(self):
         for i in range(len(self.item)-1,-1,-1):
